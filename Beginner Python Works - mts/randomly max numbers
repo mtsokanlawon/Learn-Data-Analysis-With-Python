@@ -1,0 +1,20 @@
+import random 
+
+guess = None
+guess_count = 1
+def guess_generator():
+    global guess
+    guess = random.randint(1,100)
+  
+max_value = random.randint(1, 100)
+print(max_value)
+while guess_count != 100:
+    guess_generator()
+    if guess < max_value:
+        print(guess)
+    else:
+        print(guess, "<== update")
+        max_value = guess
+    
+    guess_count += 1
+    continue

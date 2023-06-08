@@ -1,0 +1,14 @@
+print("hello mts")
+mts = 'moving through speed'
+mts = "".join(reversed (mts))
+print("   /|")
+print("  / |")
+print(" /  |")
+print("/___|")
+# madlib game 🤩
+Character_name = input("what's your alias? ")
+Character_age = input("how old are you? ")
+Character_street = input("which street do you stay? ")
+print("there's a dude called" + Character_name)
+print("He/she is" + Character_age + "years old 🔥")
+print("He/she stays on" + Character_street + "street")
